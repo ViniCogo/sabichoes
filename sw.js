@@ -1,6 +1,6 @@
 // Sabichões: guarda o jogo e as fontes no aparelho para funcionar offline.
 // Ao publicar uma versão nova do jogo, troque o número abaixo (v1 -> v2).
-const CACHE = 'sabichoes-v1';
+const CACHE = 'sabichoes-v2';
 const CORE = ['./', './index.html', './manifest.webmanifest', './icons/icon-192.png', './icons/icon-512.png', './icons/maskable-512.png', './icons/apple-touch-icon.png'];
 
 self.addEventListener('install', (e) => {
